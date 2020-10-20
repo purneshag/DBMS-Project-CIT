@@ -1,4 +1,4 @@
 # PURNESH-A-G-
-Manke a folder named images and dump all the images into it.
+Make a folder named images and dump all the images into it.
 Then run the codes
 For better working use xampp server as a local host server
