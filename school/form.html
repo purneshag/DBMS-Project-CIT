@@ -1,0 +1,35 @@
+﻿<html>
+<style>
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+body{
+background-image:url("images/sss.jpg");
+background-size:cover;
+height:100%;width:100%;}
+</style>
+<body>
+<h1 align='center'><font color="black">KENDRIYA VIDYALAYA</font></h1>
+<h2><li><font color="black">Enter the values for student table:</font></li></h3>
+<a href="student.php"><button>student table</a></button></span><br>	
+<h2><li><font color="black">Enter the values for class table:</font></li></h3>
+<a href="class.php"><button>class table</a></button></span><br>
+<h2><li><font color="black">Enter the values for subject table:</font></li></h3>
+<a href="subject.php"><button>subject table</a></button></span><br>
+<h2><li><font color="black">Enter the values for test_marks table:</font></li></h3>
+<a href="test.php"><button>test marks</a></button></span><br>
+<h2><li><font color="black">Enter the values for teacher table:</font></li></h3>
+<a href="teacher.php"><button>teacher table</a></button></span><br>
+</body>
+</html>
